@@ -10,7 +10,7 @@ class TodoItem extends Component {
                 <li className="list-group-item text-capitalize d-flex justify-content-between my-2">
                     <h6>{title}</h6>
                     <div className="todo-icon">
-                        <span className="mx-2 text-succes" onClick={handleEdit}><FontAwesomeIcon icon={faPen} className="text-center" size="2x" /></span>
+                        <span className="mx-2 succes_hover" onClick={handleEdit}><FontAwesomeIcon icon={faPen} className="text-center" size="2x" /></span>
                         <span className="mx-2 danger_hover" onClick={handleDelete}><FontAwesomeIcon icon={faTrash} className="text-center" size="2x" /></span>
                     </div>
                 </li>

@@ -2,3 +2,7 @@
     color: red;
     cursor: pointer;
 }
+.succes_hover:hover {
+    color: blue;
+    cursor: pointer;
+}
