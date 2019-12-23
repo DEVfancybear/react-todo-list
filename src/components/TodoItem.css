@@ -1,0 +1,4 @@
+.danger_hover:hover {
+    color: red;
+    cursor: pointer;
+}
